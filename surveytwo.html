@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="StyleSheet" href="./CSS/StyleSheet.css">
 </head>
 <body>
     <fieldset>
@@ -12,7 +13,7 @@
 
     <div>
       <input type="radio" id="pizza" name="pizza" value="pizza"
-             checked>
+             >
       <label for="pizza">Pizza</label>
     </div>
 
@@ -28,7 +29,7 @@
     <legend>What forms of transporation do you use:</legend>
 
     <div>
-      <input type="checkbox" id="bike" name="bike" checked>
+      <input type="checkbox" id="bike" name="bike">
       <label for="bike">Bike</label>
     </div>
 
@@ -44,6 +45,33 @@
       <input type="checkbox" id="walk" name="walk">
       <label for="walk">Walking</label>
     </div>
+    <div></div>
+    <label for="movie"> What's your favorite movie?:
+      <input id="movie" type="text">
+    </label>
+    <legend>Which Hawkeye sports do you support?:</legend>
+
+    <div>
+      <input type="checkbox" id="fball" name="fball">
+      <label for="fball">Football</label>
+    </div>
+
+    <div>
+      <input type="checkbox" id="baseball" name="baseball">
+      <label for="baseball">Baseball</label>
+    </div>
+    <div>
+      <input type="checkbox" id="basketball" name="basketball">
+      <label for="basketball">Basketball</label>
+    </div>
+    <div>
+      <input type="checkbox" id="softball" name="softball">
+      <label for="softball">Softball</label>
+    </div>
+    <div></div>
+    <label for="favactor"> Who's your favorite actor or actress:
+      <input id="favactor" type="text" required>
+    </label>
 </fieldset>
 <p>
     <button onclick="window.location.href='./thankyou.html';"></button>

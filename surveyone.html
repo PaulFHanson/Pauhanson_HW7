@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Survey One</title>
-    <link rel="stylesheet" href="./CSS/StyleSheet.css">
+    <link rel="StyleSheet" href="./CSS/StyleSheet.css">
 </head>
 <body>
     <h1>Survey One</h1>
@@ -16,15 +16,17 @@
                 <div></div>
             </legend>
             <label for="fname"> First Name:
-                <input id="fname" type="text">
+                <input id="fname" type="text" autofocus required>
             </label>
+            <nav></nav>
             <label for="lname"> Last Name:
-                <input id="lname" type="text" autofocus>
+                <input id="lname" type="text"> 
             </label>
             <div></div>
             <label for="gen"> Gender:
                 <input id="gen" type="text">
             </label>
+            <nav></nav>
             <label for="email">What does your email end with:</label>
 
             <select name="email" id="email">
@@ -33,6 +35,21 @@
             <option value="yahoo">Yahoo</option>
             <option value="hotmail">Hotmail</option>
             </select>
+            <button ondblclick="myalert()">
+                Help Message
+            </button>
+              
+            <script>
+                function myalert() {
+                    alert("For example if your email is joemama@hotmail.com" +
+                        " select 'hotmail'."
+                                );
+                }
+            </script>
+            <div></div>
+            <label for="age"> Age:
+                <input id="age" type="number">
+            </label>
         </fieldset>
     </form>
     <p>
