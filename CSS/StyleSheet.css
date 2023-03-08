@@ -1,6 +1,6 @@
 body {background-color: ghostwhite;}
 button {
-    background-color: #03a484;
+    background-color: blue;
     border: none;
     color: white;
     padding: 15px 32px;
@@ -8,4 +8,5 @@ button {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+    vertical-align: top;
   }
