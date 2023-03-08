@@ -1,5 +1,6 @@
 # Pauhanson_HW7
 #Description: In this project, I created a four-page survey that asks the user a series of fun personal questions. This project was for the seventh homework for my digital product management class.
+
 Best Practices: 
 To start off, when creating web forms one of the most important practices is to prioritize the information on the page. This could be done by having effective titles and headings that direct the user in the correct way. Additionally, putting the most important features of the webform on the top left of the page is essential for users to look at the most important information first. When designing a web form having appropriate spacing is effective so the reader/user doesn't get lost when navigating the web form. Lastly, having a good navigation bar on the side is important so that users can find what they are looking for quickly.
 	
